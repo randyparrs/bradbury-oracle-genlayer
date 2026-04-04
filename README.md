@@ -4,7 +4,7 @@ A decentralized oracle built on GenLayer that resolves YES/NO prediction market 
 
 ## What is this?
 
-One of the hardest problems in prediction markets is resolving them fairly — who decides if something happened or not? This project tackles that by using GenLayer's Intelligent Contracts to fetch real web data and let an AI determine the outcome, with multiple validators having to agree before anything is finalized.
+One of the hardest problems in prediction markets is resolving them fairly  who decides if something happened or not? This project tackles that by using GenLayer's Intelligent Contracts to fetch real web data and let an AI determine the outcome, with multiple validators having to agree before anything is finalized.
 
 Built for the Bradbury Special Track of the GenLayer Hackathon.
 
@@ -28,7 +28,7 @@ Reasoning: Argentina were confirmed as champions according to Wikipedia
 
 ## Why UNDETERMINED matters
 
-If the source page doesn't have enough information, the oracle honestly returns UNDETERMINED instead of guessing. This is important for a trustless system — better to admit uncertainty than give a wrong answer.
+If the source page doesn't have enough information, the oracle honestly returns UNDETERMINED instead of guessing. This is important for a trustless system  better to admit uncertainty than give a wrong answer.
 
 ## Built with
 
@@ -39,11 +39,11 @@ If the source page doesn't have enough information, the oracle honestly returns 
 
 ## Functions
 
-- `submit_question(question, resolution_url)` — add a new question
-- `resolve(question_id)` — trigger AI resolution
-- `get_question(question_id)` — see result and reasoning
-- `get_oracle_summary()` — overall stats
-- `batch_submit(...)` — submit 3 questions at once
+- `submit_question(question, resolution_url)`  add a new question
+- `resolve(question_id)`  trigger AI resolution
+- `get_question(question_id)`  see result and reasoning
+- `get_oracle_summary()`  overall stats
+- `batch_submit(...)`  submit 3 questions at once
 
 ## How to run it
 
