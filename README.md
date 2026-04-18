@@ -53,6 +53,8 @@ If the source page doesn't have enough information, the oracle honestly returns 
 4. Deploy with your address as `owner_address`
 5. Call `submit_question` then `resolve`
 
+Note: the contract in this repository uses the Address type in the constructor as required by genvm-lint. When deploying in GenLayer Studio use a version that receives str in the constructor and converts internally with Address(owner_address) since Studio requires primitive types to parse the contract schema correctly.
+
 ## Notes
 
 This is part of the GenLayer Incentivized Builder Program, Bradbury Special Track. The oracle uses Wikipedia as the primary data source since it's reliable and accessible to all validators consistently.
